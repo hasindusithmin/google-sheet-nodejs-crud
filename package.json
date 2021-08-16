@@ -1,0 +1,19 @@
+{
+  "name": "google-sheet-node-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tofandel/uuid-base62": "^1.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "google-spreadsheet": "^3.1.15"
+  }
+}
